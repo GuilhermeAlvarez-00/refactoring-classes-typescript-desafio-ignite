@@ -15,6 +15,14 @@
       "price": "21.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "Camarão",
+      "price": "20.90",
+      "description": "Camarão servido em uma tigela redonda",
+      "available": true,
+      "id": 3
     }
   ]
 }
