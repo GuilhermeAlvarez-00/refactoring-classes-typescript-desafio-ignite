@@ -15,6 +15,14 @@
       "price": "21.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "image": "https://github.com/GuilhermeAlvarez-00.png",
+      "name": "fastfood",
+      "price": "20",
+      "description": "comida",
+      "available": true,
+      "id": 3
     }
   ]
 }
