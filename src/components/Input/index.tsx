@@ -16,7 +16,12 @@ interface InputProps {
   placeholder?: string;
 }
 
-const Input = ({ name, icon: Icon, placeholder, ...rest }: InputProps) => {
+const Input = ({ 
+  name, 
+  placeholder, 
+  icon: Icon, 
+  ...rest
+}: InputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);

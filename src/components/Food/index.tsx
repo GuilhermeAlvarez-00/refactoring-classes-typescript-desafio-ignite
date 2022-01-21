@@ -20,7 +20,7 @@ interface FoodProps {
 }
 
 export default function Food({ food, handleEditFood, handleDelete }: FoodProps) {
-  const [ isAvailable, setIsAvailable ] = useState(true)
+  const [isAvailable, setIsAvailable] = useState(true)
 
   const toggleAvailable = async () => {
     await api.put(`/foods/${food.id}`, {
@@ -87,5 +87,4 @@ export default function Food({ food, handleEditFood, handleDelete }: FoodProps) 
       </section>
     </Container>
   );
-
 }

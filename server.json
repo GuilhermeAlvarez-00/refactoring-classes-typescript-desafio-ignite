@@ -18,19 +18,19 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
-      "name": "Camarão",
-      "price": "20.90",
-      "description": "Camarão servido em uma tigela redonda com legumes",
-      "available": true,
-      "id": 3
-    },
-    {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
       "name": "A la Camaron",
       "price": "25.90",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares",
       "available": true,
       "id": 5
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "Comida caseira",
+      "price": "15.90",
+      "description": "Comida com arroz, feijão, bife e bata frita",
+      "available": true,
+      "id": 6
     }
   ]
 }
