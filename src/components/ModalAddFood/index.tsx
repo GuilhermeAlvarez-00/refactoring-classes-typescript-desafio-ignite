@@ -7,16 +7,18 @@ import Input from '../Input';
 import { FormHandles } from '@unform/core';
 
 interface FoodData {
+  id: number;
   name: string;
   description: string;
   image: string;
   price: string;
+  available: boolean;
 }
 
 interface ModalAddFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
-  handleAddFood: (data: FoodData) => void;
+  handleAddFood: (data: FoodData) => Promise<void>;
 }
 
 export default function ModalAddFood({ isOpen, setIsOpen, handleAddFood }: ModalAddFoodProps) {

@@ -10,6 +10,7 @@ interface FoodData {
   description: string;
   image: string;
   price: string;
+  available: boolean;
 }
 
 interface FoodProps {
